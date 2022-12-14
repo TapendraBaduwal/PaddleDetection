@@ -5,6 +5,7 @@ _BASE_: [
   '../../_base_/picodet_640_reader.yml',
 ]
 
+use_gpu: False
 pretrain_weights: https://paddledet.bj.bcebos.com/models/pretrained/LCNet_x1_0_pretrained.pdparams
 weights: output/picodet_lcnet_x1_0_layout/model_final
 find_unused_parameters: True
